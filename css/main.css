@@ -1,6 +1,8 @@
 * {margin: 0; padding: 0; }
 
-a { text-decoration: none; }
+a { text-decoration: none; color: red; }
+
+p {  margin-bottom: 15px; color: #444; margin-top: 15px; font-size: 18px;}
 
 .clearfix{ overflow: auto;	}
 
@@ -111,11 +113,14 @@ nav ul li a:hover{
 } 
 div.intro{
 	width: 970px;
-	margin: 15px;
+	
 
 } 
 div.intro div.introimage{
 	width: 400px;
+	float: left;
+}
+div.intro img{
 	float: left;
 }
 div.intro div.introtext{
@@ -131,4 +136,58 @@ div.intro h1{
 div.introtext p{
 	font-size: 18px;
 }
+div.introtext a{
+	text-transform: uppercase;
+	float: right;
+}
+div.homecontent{
+	width: 1000px;
+	background: #eee;
+	margin-bottom: 15px;
+}
+div.homecontent div.home-col{
+	margin-left: 15px;
+	
+	
+	width: 313.33px;
+	float: left;
+}
+div.home-col h2{
+	margin: 30px 0 30px 0;
+	font-size: 30px;
+	font-weight: normal;
+}
+div.home-col a{
+    float: right;
+}
+div.home-col{
+	width: 313.33px;
+
+}
+div.services{
+	margin-bottom: 34px;
+}
+div.services img{
+	width: 64px;
+	float: left; 
+	margin-right: 15px; 
+}
+div.services p{
+	margin-top: 0;
+}
+div.quote{
+	float: left;
+}
+div.quote h3{
+	margin-top: 15px;
+	margin-left: 20px;
+	float: left;
+}
+div.quote p{
+	clear: both; 
+}
+
+
+
+
 
